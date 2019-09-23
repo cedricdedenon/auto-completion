@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: auto;
+	text-align: center;
+}
+
+#results div:hover, .result_focus{
+	background-color: #CCC;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input, form + div{
+	width: 40%;
+	padding: 0.5%;
+}
+
+ #results{
+ 	width: 40%;
+ }
+
+button{
+	width: 35%;
+	border-radius: 10%;
+	margin: 10px 10px;
+	padding: 5px;
+}
+
+form + div{
+	display: none;
+	margin: 10px auto;
+}
+
+.res{
+	text-align: left;
+ 	padding: 1% 0 1% 2%;
+ 	width: 100%;
+  	border: 1px solid #CCC;
+}
+
+#map {
+	height: 500px;
+	width: 40%; 
+	margin: 2% auto; 
+}
+
+.create-file{
+	border: 1px dotted black; 
+	font-size: 1.2em;
+	padding: 20px; 
+	width: 60%; 
+	margin: auto;
+}
+
+p{
+	font-size: 1.1em;
+}
